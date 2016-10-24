@@ -18,7 +18,7 @@ html, body{
 
 .top_container_across{
   border-bottom: 1px solid #eee;
-  padding: 42px 0;
+  padding: 78px 0;
 
 }
 
@@ -50,15 +50,38 @@ html, body{
   color: #4d4d4d;
   border-bottom: 4px solid #EEE;
 }
+.item-menu .link-menu:hover{
+  color: #3DAFCA;
+  border-color: #3498B1;
+}
 
+.contacts-right{
+  float:right;
+  text-align: right;
+}
+
+.top_contact-phone p{
+  font-weight: bold;
+  color:#4d4d4d;
+  font-size: 18px;
+  margin:0;
+}
+
+.top_contact-email p{
+  color:#4d4d4d;
+  font-size: 12px;
+  margin:0;
+  font-weight: lighter;
+}
 .content{
   margin: 0;
   border:0;
   display:block;
-  padding:0;
+  padding:0 47px;
 }
+
 #section-home{
-  margin: 42px 0 0 0;
+  margin: 0;
   display:block;
 }
 
@@ -161,11 +184,12 @@ html, body{
 
 
 #section-projects{
-  padding: 33px 0 0 0;
+  padding: 10px 0 0 0;
+  display:block;
 }
 
 .projects-container{
-  padding: 0 47px;
+  padding: 0 0px;
   width:100%;
   box-sizing: border-box;
 }
@@ -175,4 +199,37 @@ html, body{
 
 .pro-title{
   letter-spacing:-3px;
+}
+.pro-title p{
+  font-size:55px;
+  font-weight:400;
+}
+
+.pro-title-text p{
+  font-size:14px;
+  margin-top:10px;
+  color:#999;
+  text-align:center;
+  font-weight: lighter;
+}
+
+.pro-list-sites{
+  margin-top:30px;
+}
+
+.pro-site-box{
+  width: 50%;
+  min-height: 235px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.box-img{
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter:brightness(50%);
 }
